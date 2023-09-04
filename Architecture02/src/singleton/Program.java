@@ -8,6 +8,6 @@ public class Program {
         BaseClient client1 = new Client01("Alex");
         singleton = client1.getSingleton();
         System.out.println(singleton);
-
+//      System.out.println(singleton.NAME);
     }
 }
