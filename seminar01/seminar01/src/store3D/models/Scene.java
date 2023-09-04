@@ -8,7 +8,7 @@ public class Scene {
     private int id;
     private List<PoligonalModel> models = new ArrayList<>();
     private List<Flash> flashes = new ArrayList<>();
-    private List<Camera> cameras = new ArrayList<>(); // Не совсем понятно где применяется
+    private List<Camera> cameras = new ArrayList<>();
 
     {
         id = ++counter;
